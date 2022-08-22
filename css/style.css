@@ -21,21 +21,13 @@ font-family: 'Montserrat', sans-serif; */
 }
 
 /* HEADER AND FOOTER*/
-.header {
-    background-image: linear-gradient(to right, #e9e7da 50%, white);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
 
 .navbar-brand img {
     width: 150px;
     padding: 5px;
 }
 
-.navbar {
+.navbar{
     background-image: linear-gradient(to right, #e9e7da 70%, white);
 }
 
@@ -53,26 +45,21 @@ font-family: 'Montserrat', sans-serif; */
     font-weight: bold;
 }
 
-
-.header ul,
 .footer ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
 }
 
-.header li,
 .footer li {
     padding: 15px;
 }
 
-.header a,
 .footer a,
 .footer p {
     color: #cb997e;
 }
 
-.header a:hover,
 .footer a:hover {
     color: #e58461;
     font-weight: bold;
@@ -90,10 +77,8 @@ font-family: 'Montserrat', sans-serif; */
 }
 
 /* MainIndex */
-
-
 .mainIndex {
-    min-height: 80vh;
+    min-height: 65vh;
     background-image: url('https://d3ugyf2ht6aenh.cloudfront.net/stores/001/070/304/themes/idea/slide-1606843316359-4482945457-e667eabb42cae97dc7e4c9348ff1a0471606843329.jpg?886905166');
     background-size: cover;
     background-repeat: no-repeat;
@@ -102,7 +87,15 @@ font-family: 'Montserrat', sans-serif; */
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+   }
+
+.indexBackbround{
+    background-color: rgba(240, 255, 255, 0.662);
+    /* height: 50vh; */
+    /* width: 80vw; */
+    margin: 0px auto;
+    padding: 10px;
 }
 
 .tituloIndex {
@@ -151,7 +144,7 @@ font-family: 'Montserrat', sans-serif; */
     transform: skew(-10deg);
     transition: 2s;
     text-align: center;
-    margin: 10px auto;
+    margin: 0px auto;
     padding: 2px;
 }
 
@@ -200,17 +193,11 @@ font-family: 'Montserrat', sans-serif; */
     margin: auto 60px;
 }
 
-.quienesSomos h1 {
-    padding: 10px;
-    text-align: center;
-    font-size: 40px;
-}
-
 .quienesSomos p {
     text-align: center;
     line-height: 2;
     padding: 10px 66px;
-    margin: 5px;
+    margin: 0px;
 }
 
 /*Main FaQ*/
@@ -227,11 +214,6 @@ font-family: 'Montserrat', sans-serif; */
     margin: auto 60px;
 }
 
-.faqBackground h1 {
-    padding: 10px;
-    text-align: center;
-    font-size: 40px;
-}
 
 .faqBackground h2 {
     margin: 10px 5px;
@@ -307,7 +289,7 @@ textarea:focus {
     }
 
     .mainIndex {
-        min-height: 70vh;
+        min-height: 50vh;
     }
 
     .gridCards {
