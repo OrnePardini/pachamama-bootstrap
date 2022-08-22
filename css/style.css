@@ -87,16 +87,31 @@ font-family: 'Montserrat', sans-serif; */
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-ends;
    }
 
 .indexBackbround{
-    background-color: rgba(240, 255, 255, 0.662);
-    /* height: 50vh; */
-    /* width: 80vw; */
+    background-color: rgba(240, 255, 255, 0.588);
+    height: 65vh;
+    width: 100vw;
     margin: 0px auto;
     padding: 10px;
 }
+
+.indexTitulos{
+    display: flex;
+    text-align: center;
+    height: 40vh;
+    text-align: flex-end;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: 1200;
+}
+
+
 
 .tituloIndex {
     display: flex;
@@ -104,29 +119,26 @@ font-family: 'Montserrat', sans-serif; */
     background-image: linear-gradient(to right, #e9e7da 50%, white);
     margin: 10px auto;
 }
-
-.textoCarousel {
-    color: black;
-}
-
-
-.mainIndex h2 {
-    padding: 10px;
-}
-
-
 .mainIndex h1 {
     font-size: 40px;
     padding: 10px;
 }
-
 .mainIndex h1:hover {
     color: #e58461;
     font-weight: bold;
     transform: skew(-10deg);
-    transition: 2s;
+    transition: 4s;
 }
 
+.indexTitulos h2 {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.animate__heartBeat {
+    animation-duration: 6s;
+}
+    
 /* MainProductos */
 
 .mainProductos {
