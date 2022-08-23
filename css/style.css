@@ -27,7 +27,7 @@ font-family: 'Montserrat', sans-serif; */
     padding: 5px;
 }
 
-.navbar{
+.navbar {
     background-image: linear-gradient(to right, #e9e7da 70%, white);
 }
 
@@ -87,9 +87,9 @@ font-family: 'Montserrat', sans-serif; */
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-   }
+}
 
-.indexBackbround{
+.indexBackbround {
     background-color: rgba(240, 255, 255, 0.588);
     height: 65vh;
     width: 100vw;
@@ -97,7 +97,7 @@ font-family: 'Montserrat', sans-serif; */
     padding: 10px;
 }
 
-.indexTitulos{
+.indexTitulos {
     display: flex;
     text-align: center;
     height: 55vh;
@@ -114,6 +114,7 @@ font-family: 'Montserrat', sans-serif; */
     font-size: 40px;
     padding: 10px;
 }
+
 .indexTitulos h1:hover {
     color: #e58461;
     font-weight: bold;
@@ -130,7 +131,7 @@ font-family: 'Montserrat', sans-serif; */
     animation-duration: 6s;
 }
 
-   
+
 /* MainProductos */
 
 .mainProductos {
@@ -142,15 +143,16 @@ font-family: 'Montserrat', sans-serif; */
     flex-direction: column;
 }
 
-.titulos{
+.titulos {
     color: #e58461;
     font-weight: bold;
     transform: skew(-10deg);
     transition: 2s;
     text-align: center;
+    font-size: 40px;
 }
 
-.titulos2{
+.titulos2 {
     color: #e58461;
     width: 100vw;
     height: 10vh;
@@ -160,6 +162,7 @@ font-family: 'Montserrat', sans-serif; */
     justify-content: center;
     font-size: 1cm;
 }
+
 /* Nuevos productos con Bootstrap */
 .card {
     display: flex;
@@ -178,31 +181,29 @@ font-family: 'Montserrat', sans-serif; */
 }
 
 .btn:hover {
-   background-color: black;
-   color: #e58461;
+    background-color: black;
+    color: #e58461;
 }
 
-.row{
+.row {
     justify-content: space-evenly;
 }
 
-.card-title{
+.card-title {
     text-align: center;
 }
 
 
 /* MainQuienesSomos*/
 .quienesSomos {
-    min-height: 57vh;
     background-image: url('https://d3ugyf2ht6aenh.cloudfront.net/stores/001/070/304/themes/idea/slide-1606843316359-4482945457-e667eabb42cae97dc7e4c9348ff1a0471606843329.jpg?886905166');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
+  }
 
 .qsBackbround {
     background-color: rgba(240, 255, 255, 0.662);
-    margin: auto 60px;
 }
 
 .quienesSomos p {
@@ -214,7 +215,6 @@ font-family: 'Montserrat', sans-serif; */
 
 /*Main FaQ*/
 .mainFaq {
-    min-height: 79vh;
     background-image: url('https://d3ugyf2ht6aenh.cloudfront.net/stores/001/070/304/products/55-shiri21-8e7f759a65d675b49f16068384488485-1024-1024.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -222,9 +222,8 @@ font-family: 'Montserrat', sans-serif; */
 }
 
 .faqBackground {
-    background-color: rgba(240, 255, 255, 0.844);
-    margin: auto 60px;
-}
+    background-color: rgba(240, 255, 255, 0.696);
+   }
 
 
 .faqBackground h2 {
@@ -241,7 +240,6 @@ font-family: 'Montserrat', sans-serif; */
 
 /* Main Contacto */
 .mainContacto {
-    min-height: 50vh;
     background-image: url("https://d3ugyf2ht6aenh.cloudfront.net/stores/001/070/304/products/sorbete-aluminio1-836ec43b0fe50a332515730477862939-1024-1024.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -250,7 +248,6 @@ font-family: 'Montserrat', sans-serif; */
 
 .contactoBackground {
     background-color: rgba(240, 255, 255, 0.844);
-    margin: auto 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -260,12 +257,9 @@ font-family: 'Montserrat', sans-serif; */
 .contactoBackground form {
     display: flex;
     flex-direction: column;
-}
-
-.contactoBackground h1 {
-    padding: 10px;
-    text-align: center;
-    font-size: 40px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .contactoBackground p {
@@ -273,6 +267,7 @@ font-family: 'Montserrat', sans-serif; */
     padding: 10px;
     text-align: center;
     font-size: 120%;
+    color: black;
 }
 
 .contactoBackground form input,
@@ -282,11 +277,11 @@ font-family: 'Montserrat', sans-serif; */
     text-align: center;
     font-size: 120%;
 }
-
-input:focus,
-textarea:focus {
-    background-color: #e58461e7;
+input.btn.btnColor{
+    padding: 10px 180px;
+    margin: 10px;
 }
+
 
 /* Tamaño Mediano */
 @media(max-width: 740px) {
@@ -315,14 +310,14 @@ textarea:focus {
         margin: 8px 50px;
     }
 
-    .contactoBackground form input, .contactoBackground form textarea {
+    .contactoBackground form input,
+    .contactoBackground form textarea {
         margin: 1px 50px;
+    }
 }
-
 
 /* Tamaño Chico */
 @media(max-width: 510px) {
-
     .gridGaleria {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(5, 1fr);
