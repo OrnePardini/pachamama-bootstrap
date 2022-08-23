@@ -87,7 +87,6 @@ font-family: 'Montserrat', sans-serif; */
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: flex-ends;
    }
 
 .indexBackbround{
@@ -101,7 +100,7 @@ font-family: 'Montserrat', sans-serif; */
 .indexTitulos{
     display: flex;
     text-align: center;
-    height: 40vh;
+    height: 55vh;
     text-align: flex-end;
     flex-direction: column;
     align-content: space-around;
@@ -111,19 +110,11 @@ font-family: 'Montserrat', sans-serif; */
     font-weight: 1200;
 }
 
-
-
-.tituloIndex {
-    display: flex;
-    justify-content: center;
-    background-image: linear-gradient(to right, #e9e7da 50%, white);
-    margin: 10px auto;
-}
-.mainIndex h1 {
+.indexTitulos h1 {
     font-size: 40px;
     padding: 10px;
 }
-.mainIndex h1:hover {
+.indexTitulos h1:hover {
     color: #e58461;
     font-weight: bold;
     transform: skew(-10deg);
@@ -138,7 +129,8 @@ font-family: 'Montserrat', sans-serif; */
 .animate__heartBeat {
     animation-duration: 6s;
 }
-    
+
+   
 /* MainProductos */
 
 .mainProductos {
@@ -156,10 +148,18 @@ font-family: 'Montserrat', sans-serif; */
     transform: skew(-10deg);
     transition: 2s;
     text-align: center;
-    margin: 0px auto;
-    padding: 2px;
 }
 
+.titulos2{
+    color: #e58461;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    justify-content: center;
+    font-size: 1cm;
+}
 /* Nuevos productos con Bootstrap */
 .card {
     display: flex;
@@ -314,6 +314,9 @@ textarea:focus {
     .faqBackground p {
         margin: 8px 50px;
     }
+
+    .contactoBackground form input, .contactoBackground form textarea {
+        margin: 1px 50px;
 }
 
 
